@@ -1,7 +1,7 @@
 # k8s-tools-docker-image
 A Dockerfile with a docker image for the k8s tools
   
-Example of shell commands for cluster configuration for kubecrl usage:  
+Example of shell commands to configure cluster for kubectl usage:  
 ```
 kubectl config set-cluster my_cluster_name --server=https://my_cluster_url:6443 --certificate-authority=/path_to_my_cluster_certificate  
 kubectl config set-credentials my_cluster_user --token=my_cluster_user_t0ken  
